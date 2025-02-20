@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px
+}
+
+@media (min-width: 768px) {
+    #wd-kanbas .wd-main-content-offset {
+        padding-left: 140px !important;
+    }
+}
+
+.wd-dashboard-course-title {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 240px;
+    white-space: nowrap;
+}
+
+.wd-dashboard-course-title-number {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 240px;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.list-group.wd>.list-group-item.active {
+    color: black;
+    background-color: white;
+    border-left: 3px solid black !important;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    --bs-btn-color: #000 !important;
+    --bs-btn-bg: #c7cdd1 !important;
+    --bs-btn-border-color: #c7cdd1 !important;
+    --bs-btn-hover-color: #fff !important;
+}
+
+.bg-secondary {
+    --bs-secondary-rgb: 199, 205, 209;
+}
+
+.list-group-item {
+    --bs-list-group-border-color: gray;
+}
+
+.list-group-item .wd-lesson,
+.wd-assignment-list-item {
+    border-left: 3px solid green !important;
+}
+
+.wd-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.wd-assignment-link {
+    color: black;
+    text-decoration-line: none;
+}
+
+.search-bar {
+    border: 1px solid black;
+    padding: 2px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.form_input_header_label {
+    font-weight: 500;
+}
