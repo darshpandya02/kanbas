@@ -1,7 +1,6 @@
 import "dotenv/config";
 import express from "express";
 import Hello from "./Hello.js";
-import Lab5 from "./Lab5/index.js";
 import cors from "cors";
 import UserRoutes from "./Kanbas/Users/routes.js";
 import CourseRoutes from "./Kanbas/Courses/routes.js";
@@ -45,7 +44,6 @@ ModuleRoutes(app);
 AssignmentsRoutes(app);
 EnrollmentsRoutes(app);
 AttemptsRoutes(app);
-Lab5(app);
 Hello(app);
 QuizRoutes(app);
 app.listen(process.env.PORT || 4000);
