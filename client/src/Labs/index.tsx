@@ -12,7 +12,7 @@ export default function Labs() {
   return (
     <Provider store={store}>
       <div className="m-4">
-        <h2>Jane Kamata, Ethan Coomber, Gracie Richards | Section 2</h2>
+        <h2>Darsh Pandya</h2>
         <h1>Labs</h1>
         <TOC />
         <Routes>
