@@ -1,5 +1,5 @@
 import axios from "axios";
-const REMOTE_SERVER = process.env.REACT_APP_REMOTE_SERVER;
+const REMOTE_SERVER = process.env.REACT_APP_API_URL;
 const MODULES_API = `${REMOTE_SERVER}/api/modules`;
 const axiosWithCredentials = axios.create({ withCredentials: true });
 

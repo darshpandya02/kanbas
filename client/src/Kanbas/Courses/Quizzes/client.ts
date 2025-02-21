@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Define base APIs based on backend routes
-const REMOTE_SERVER = process.env.REACT_APP_REMOTE_SERVER;
+const REMOTE_SERVER = process.env.REACT_APP_API_URL;
 const QUIZZES_API = `${REMOTE_SERVER}/api/quizzes`;
 const ATTEMPTS_API = `${REMOTE_SERVER}/api/attempts`;
 const COURSES_API = `${REMOTE_SERVER}/api/courses`;
