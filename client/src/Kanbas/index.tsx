@@ -18,12 +18,17 @@ export default function Kanbas() {
   const [enrolling, setEnrolling] = useState<boolean>(false);
   const findCoursesForUser = async () => {
     try {
+      if (currentUser) {
       const courses = await userClient.findCoursesForUser(currentUser._id);
       const switchCourses = courses.map((course: any) => ({
         ...course,
         enrolled: true,
       }));
       setCourses(switchCourses);
+      }
+      else{
+        console.error("currentUser is null or undefined");
+      }
     } catch (error) {
       console.error(error);
     }
